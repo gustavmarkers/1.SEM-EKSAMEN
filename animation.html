@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grundlæggende Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo"><a href="index.html"><img src="billeder/portfolio_logo.png" alt="Logo"></a></div>
+
+
+        <nav>
+            <a href="index.html">FORSIDE</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="om.html">OM</a>
+
+        </nav>
+
+    </header>
+
+
+    <section id="animation">
+        <h1>Grundlæggende animation</h1>
+
+
+        <h3>Individuelt spil - 04.04.01</h3>
+        <div class="sectionwrapper">
+            <div class="column">
+
+                <p>I dette tema blev vi bl.a. introduceret til aktivitetsdiagrammer, statemachine-diagrammer og javascript, som i sidste ende skulle hjælpe os med at skabe et spil fra bunden. Jeg blev desværre syg og gik glip af en stor del af undervisningen om javascript, og endte derfor aldrig med at få færdigudviklet mit eget spil. Jeg nåede dog at lave alle mine designs til spillet og et aktivitetsdiagram som man kan se <a href="smoothie_smasher_dokument_1.pdf" target="_blank">her</a>.</p>
+
+                <p>Da jeg er gået glip af en stor del af javascript i praksis, er det begrænset hvad jeg har af evner, men jeg tænkte at jeg ville bruge noget af det jeg lærte til at afspille en lydfil, som er noget musik som jeg selv producerede til vores gruppespil. Jeg har f.eks. brugt Eventlisteners og givet den funktionen toggle_musik, som gør det muligt at starte og stoppe musikken ved at trykke på billedet til højre.</p>
+
+            </div>
+
+
+            <div class="musik_column">
+                <div class="column" id="baggrundsmusik_klik">
+                    <img src="billeder/play_music_iphone.png" alt="iPhone Music Player">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <h3>Sharing is (Not) Caring</h3>
+        <div class="sectionwrapper">
+
+            <div class="column">
+
+                <p>I denne opgave, skulle vi i grupper af 4 lave et <a href="http://www.gustavmarkers.dk/kea/04_animation/04_04_1_projekt/" target="_blank">spil</a> til Sex og Samfund, som skulle kodes fra bunden ved hjælp af HTML, CSS, JavaScript og SVG-filer, som skulle bruges til figurer og UI-elementer. I løbet af forløbet lavede vi et <a href="http://www.gustavmarkers.dk/kea/04_animation/dokumentationssite_gruppespil/" target="_blank">dokumentationssite</a> , som indeholdte de forskellige processer vi var igennem inden vi nåede til det færdige produkt. Vi arbejdede efter Scrum-metoden, hvor vi bl.a. oprettede et Trello-board som hjalp os med at holde styr på vores opgaver.</p>
+
+                <p>Målet med spillet var vi ville lave et spil som var sjovt, udfordrende og lærerigt på samme tid. Målgruppen var unge mellem 13-15 år, og vi skulle derfor finde en på den alder som vi kunne teste spilidéer på, herunder bl.a. designet og spilstrukturen. Derudover lavede vi forskellige tests, eksempelvis en 5-sekunders-test. </p>
+
+                <p>Da vi viste spillet frem til ferniseringen, tog folk generelt godt i mod det, men under vores 'tænke-højt-test' sagde nogen at der var lidt for meget tekst som de ikke “orkede at læse”. Det er ikke alle i alderen 13-15 der er vilde med læsning, så til næste gang kunne man forkorte teksten en smule og sørge for at faktaboksene kun blev fremvist når man klikkede på et forkert billede. </p>
+
+                <p>Da jeg jo selv var gået glip af meget af javaScript-undervisningen fra forrige opgave, bestod mine hovedopgaver primært af idégenerering, design, layout og musikproduktion. Hvis vi havde haft mere tid, ville jeg også gerne have ændret på fonten som bruges til navnet på spillet. Den ser meget uprofessionel ud og er blevet eksporteret forkert da man se baggrunden i kanten af bogstaverne. Mht. til javascriptet, ville jeg nok også sætte farten lidt ned på funktionen som styrer hastigheden på de faldende billeder, da det kan være svært at ane hvad de egentlig skal forestille.
+                </p>
+            </div>
+
+            <div class="column">
+                <div class="hackman">
+                    <embed src="http://gustavmarkers.dk/kea/04_animation/04_04_1_projekt/" style="width:100%; height: 300px;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <audio id="baggrundsmusik" src="lyd/musik_til_spil.mp3"></audio>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

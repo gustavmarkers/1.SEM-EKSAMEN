@@ -1,0 +1,614 @@
+/* Universelt */
+
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 3em;
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    top: 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+
+
+h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    overflow: visible;
+}
+
+h4 a {
+    margin-top: 0.5rem;
+    text-transform: none;
+    background-image: url(billeder/stroke_cirkel.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+h4 a:link {
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #cfa4d7;
+}
+
+
+h4 a:visited {
+
+    font-style: normal;
+    font-weight: 700;
+    color: #cfa4d7;
+}
+
+
+h4 a:hover {
+
+    font-style: normal;
+    font-weight: 700;
+    color: dimgrey;
+}
+
+
+h4 a:active {
+
+    font-style: normal;
+    font-weight: 700;
+
+    color: dimgrey;
+}
+
+body {
+    margin: 0px;
+    font-family: "Heebo", sans-serif;
+    background-color: #F2ECE4;
+
+}
+
+img {
+    width: 100%;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 7%;
+}
+
+.logo img:hover {
+    transform: scale(1.15);
+    transition: 0.5s ease-out;
+
+}
+
+
+
+.sectionwrapper_col {
+    margin: 0 auto;
+}
+
+.column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.column_billede {
+    flex-basis: 200px;
+    flex-grow: 1;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+p {
+    color: dimgrey;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+
+a {
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+
+p a:link {
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #9BABBF;
+}
+
+
+p a:visited {
+
+    font-style: normal;
+    font-weight: 700;
+    color: #9BABBF;
+}
+
+
+p a:hover {
+
+    font-style: normal;
+    font-weight: 700;
+    color: #D9D2B0;
+}
+
+
+p a:active {
+
+    font-style: normal;
+    font-weight: 700;
+
+    color: #dadbfc;
+}
+
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 100000000;
+    background-color: white;
+}
+
+header nav a {
+    color: #9BABBF;
+    margin: 2px;
+    align-self: flex-end;
+    padding: 2px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+
+header nav a:active {
+
+    font-style: normal;
+    font-weight: 100;
+
+    color: #dadbfc;
+}
+
+.liste {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 2rem;
+    margin-top: 0;
+    float: left;
+}
+
+/* Forside */
+
+.forside {
+    text-align: center;
+}
+
+.forside a {
+    z-index: 3;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* Portfolio */
+
+#portfolio {
+    margin-top: 5rem;
+}
+
+#portfolio .sectionwrapper {
+    justify-content: center;
+}
+
+.column_portfolio {
+    max-width: 54%;
+    margin: 0 auto;
+}
+
+#portfolio img:hover {
+    transition: .5s ease;
+    transform: scale(1.07);
+}
+
+/* Webdesign */
+
+.billede_webdesign {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered a:link {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: white;
+    background-color: #cfa4d7;
+}
+
+
+.centered a:visited {
+
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+
+.centered a:hover {
+
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+
+.centered a:active {
+
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+#webdesign {
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-color: dimgrey;
+    margin-bottom: 5vw;
+}
+
+.billede_webdesign {
+    filter: opacity(80%);
+}
+
+.billede_webdesign:hover {
+    transition: 0.5s ease-out;
+    filter: opacity(100%);
+}
+
+/* Indhold */
+
+video {
+    width: 100%;
+}
+
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+h3.center {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: dimgray;
+}
+
+#indhold {
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-color: dimgray;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.billede_column {
+    filter: opacity(80%);
+}
+
+.billede_column_mette {
+    flex-basis: 200px;
+    flex-grow: 1;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.billede_column:hover {
+    transition: 0.5s ease-out;
+    filter: opacity(100%);
+}
+
+.billede_column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Animation */
+
+p.bold {
+    font-weight: 700;
+    color: #9BABBF;
+
+}
+
+.musik {
+    max-width: 300px;
+}
+
+.musik_column {
+    flex-basis: 300px;
+    text-align: center;
+    color: black;
+}
+
+#animation {
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-color: dimgray;
+    margin-bottom: 5rem;
+}
+
+
+/* UX */
+
+h4.temadok {
+    text-align: center;
+}
+
+.ux_prototype {
+    flex-basis: 300px;
+    align-content: center;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.ux_middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ux img {
+    width: 80%;
+}
+
+#ux .sectionwrapper {
+    justify-content: center;
+}
+
+#ux {
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-color: dimgray;
+    margin-bottom: 5rem;
+}
+
+.ux_middle a:link {
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+
+
+.ux_middle a:visited {
+
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+
+.ux_middle a:hover {
+
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+.ux_middle a:active {
+
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Om */
+
+#om .sectionwrapper img {
+    max-width: 350px;
+    margin-top: 0;
+}
+
+#om .column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 20px;
+    margin-top: -1.4rem;
+}
+
+#om .column_mig {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#om {
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    border-color: dimgray;
+}
+
+#om .sectionwrapper {
+    margin-top: 2rem;
+    max-width: 50rem;
+    margin: auto;
+}
+
+
+
+/* Desktop mediaquery*/
+
+@media only screen and (min-width:700px) {
+
+
+    /* Dekstop Tilbageknap */
+
+    .tilbage {
+        position: fixed;
+        top: 5vw;
+        left: 6vw;
+    }
+
+    /* Desktop forside */
+
+    #forside {
+        text-align: center;
+    }
+
+    #forside img {
+        max-width: 60vw;
+        position: relative;
+    }
+
+    .forside a {
+        right: 10vw;
+        bottom: 10vw;
+        margin-bottom: 0;
+        font-size: 4rem;
+        color: rgba(0, 0, 0, 0.66);
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+
+    }
+
+    /* Desktop generelt */
+
+    header {
+        background: none;
+        z-index: 100;
+    }
+
+    header nav {
+        flex-direction: row;
+        display: flex;
+        background-color: #D9D2B0;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        justify-content: flex-end;
+    }
+
+    header nav a {
+        padding: 0 0.5rem 0;
+        font-size: 1.2rem;
+        border-left: 0px;
+        background: none;
+    }
+
+    nav a:hover {
+
+        font-style: normal;
+        font-weight: 500;
+        color: black;
+    }
+
+    header nav a:last-child {
+        border-right: none;
+    }
+
+    .sectionwrapper {
+        display: flex;
+    }
+
+    /* Portfolio desktop */
+
+    #portfolio {
+        margin-top: 6rem;
+        background-image: url(billeder/portfolio_streg_3.png);
+        background-repeat: repeat-y;
+        background-position: top center;
+    }
+
+    section#ux {
+        max-width: 70vw;
+    }
+
+}
